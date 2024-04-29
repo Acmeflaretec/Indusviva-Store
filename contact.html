@@ -1,0 +1,571 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="assets/images/logo/logo.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="description" content="Indusviva Online Store">
+    <link rel="apple-touch-icon" href="/logo192.pn">
+    <link rel="manifest" href="/manifest.json">
+    <title>Welcome to Indusviva Online Shopping | Indusviva Store</title>
+    <meta name="description" content="Explore a wide range of products at Indusviva Online Shopping. Discover our high-quality wellness products including I-CARE, I-COFFEE BLACK, I-COFFEE CREAMER, I-DWELL, I-GLOW, I-PULSE, and I-SLIM.">
+    <meta name="keywords" content="Indusviva, Indusviva Store, Online Shopping, I-CARE, I-COFFEE BLACK, I-COFFEE CREAMER, I-DWELL, I-GLOW, I-PULSE, I-SLIM, Wellness Products">
+    <meta name="author" content="Indusviva Store">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="./assets/css/libs.min.css">
+    <!-- <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"> -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/foodsto.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <script defer="defer" src="/static/js/main.3b0d45ba.js"></script>
+    <link href="/static/css/main.b381c254.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style class="fslightbox-styles">
+        .fslightbox-absoluted {
+            position: absolute;
+            top: 0;
+            left: 0
+        }
+
+        .fslightbox-fade-in {
+            animation: fslightbox-fade-in .3s cubic-bezier(0, 0, .7, 1)
+        }
+
+        .fslightbox-fade-out {
+            animation: fslightbox-fade-out .3s ease
+        }
+
+        .fslightbox-fade-in-strong {
+            animation: fslightbox-fade-in-strong .3s cubic-bezier(0, 0, .7, 1)
+        }
+
+        .fslightbox-fade-out-strong {
+            animation: fslightbox-fade-out-strong .3s ease
+        }
+
+        @keyframes fslightbox-fade-in {
+            from {
+                opacity: .65
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fslightbox-fade-out {
+            from {
+                opacity: .35
+            }
+
+            to {
+                opacity: 0
+            }
+        }
+
+        @keyframes fslightbox-fade-in-strong {
+            from {
+                opacity: .3
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fslightbox-fade-out-strong {
+            from {
+                opacity: 1
+            }
+
+            to {
+                opacity: 0
+            }
+        }
+
+        .fslightbox-cursor-grabbing {
+            cursor: grabbing
+        }
+
+        .fslightbox-full-dimension {
+            width: 100%;
+            height: 100%
+        }
+
+        .fslightbox-open {
+            overflow: hidden;
+            height: 100%
+        }
+
+        .fslightbox-flex-centered {
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        .fslightbox-opacity-0 {
+            opacity: 0 !important
+        }
+
+        .fslightbox-opacity-1 {
+            opacity: 1 !important
+        }
+
+        .fslightbox-scrollbarfix {
+            padding-right: 17px
+        }
+
+        .fslightbox-transform-transition {
+            transition: transform .3s
+        }
+
+        .fslightbox-container {
+            font-family: Arial, sans-serif;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: linear-gradient(rgba(30, 30, 30, .9), #000 1810%);
+            touch-action: pinch-zoom;
+            z-index: 1000000000;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        .fslightbox-container * {
+            box-sizing: border-box
+        }
+
+        .fslightbox-svg-path {
+            transition: fill .15s ease;
+            fill: #ddd
+        }
+
+        .fslightbox-nav {
+            height: 45px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0
+        }
+
+        .fslightbox-slide-number-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 100%;
+            font-size: 15px;
+            color: #d7d7d7;
+            z-index: 0;
+            max-width: 55px;
+            text-align: left
+        }
+
+        .fslightbox-slide-number-container .fslightbox-flex-centered {
+            height: 100%
+        }
+
+        .fslightbox-slash {
+            display: block;
+            margin: 0 5px;
+            width: 1px;
+            height: 12px;
+            transform: rotate(15deg);
+            background: #fff
+        }
+
+        .fslightbox-toolbar {
+            position: absolute;
+            z-index: 3;
+            right: 0;
+            top: 0;
+            height: 100%;
+            display: flex;
+            background: rgba(35, 35, 35, .65)
+        }
+
+        .fslightbox-toolbar-button {
+            height: 100%;
+            width: 45px;
+            cursor: pointer
+        }
+
+        .fslightbox-toolbar-button:hover .fslightbox-svg-path {
+            fill: #fff
+        }
+
+        .fslightbox-slide-btn-container {
+            display: flex;
+            align-items: center;
+            padding: 12px 12px 12px 6px;
+            position: absolute;
+            top: 50%;
+            cursor: pointer;
+            z-index: 3;
+            transform: translateY(-50%)
+        }
+
+        @media (min-width:476px) {
+            .fslightbox-slide-btn-container {
+                padding: 22px 22px 22px 6px
+            }
+        }
+
+        @media (min-width:768px) {
+            .fslightbox-slide-btn-container {
+                padding: 30px 30px 30px 6px
+            }
+        }
+
+        .fslightbox-slide-btn-container:hover .fslightbox-svg-path {
+            fill: #f1f1f1
+        }
+
+        .fslightbox-slide-btn {
+            padding: 9px;
+            font-size: 26px;
+            background: rgba(35, 35, 35, .65)
+        }
+
+        @media (min-width:768px) {
+            .fslightbox-slide-btn {
+                padding: 10px
+            }
+        }
+
+        @media (min-width:1600px) {
+            .fslightbox-slide-btn {
+                padding: 11px
+            }
+        }
+
+        .fslightbox-slide-btn-container-previous {
+            left: 0
+        }
+
+        @media (max-width:475.99px) {
+            .fslightbox-slide-btn-container-previous {
+                padding-left: 3px
+            }
+        }
+
+        .fslightbox-slide-btn-container-next {
+            right: 0;
+            padding-left: 12px;
+            padding-right: 3px
+        }
+
+        @media (min-width:476px) {
+            .fslightbox-slide-btn-container-next {
+                padding-left: 22px
+            }
+        }
+
+        @media (min-width:768px) {
+            .fslightbox-slide-btn-container-next {
+                padding-left: 30px
+            }
+        }
+
+        @media (min-width:476px) {
+            .fslightbox-slide-btn-container-next {
+                padding-right: 6px
+            }
+        }
+
+        .fslightbox-down-event-detector {
+            position: absolute;
+            z-index: 1
+        }
+
+        .fslightbox-slide-swiping-hoverer {
+            z-index: 4
+        }
+
+        .fslightbox-invalid-file-wrapper {
+            font-size: 22px;
+            color: #eaebeb;
+            margin: auto
+        }
+
+        .fslightbox-video {
+            object-fit: cover
+        }
+
+        .fslightbox-youtube-iframe {
+            border: 0
+        }
+
+        .fslightbox-loader {
+            display: block;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 67px;
+            height: 67px
+        }
+
+        .fslightbox-loader div {
+            box-sizing: border-box;
+            display: block;
+            position: absolute;
+            width: 54px;
+            height: 54px;
+            margin: 6px;
+            border: 5px solid;
+            border-color: #999 transparent transparent transparent;
+            border-radius: 50%;
+            animation: fslightbox-loader 1.2s cubic-bezier(.5, 0, .5, 1) infinite
+        }
+
+        .fslightbox-loader div:nth-child(1) {
+            animation-delay: -.45s
+        }
+
+        .fslightbox-loader div:nth-child(2) {
+            animation-delay: -.3s
+        }
+
+        .fslightbox-loader div:nth-child(3) {
+            animation-delay: -.15s
+        }
+
+        @keyframes fslightbox-loader {
+            0% {
+                transform: rotate(0)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        .fslightbox-source {
+            position: relative;
+            z-index: 2;
+            opacity: 0
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/static/css/172.9061532b.chunk.css">
+</head>
+
+<body><span class="screen-darken"></span>
+    <div id="loading" style="display: none;">
+        <div class="loader simple-loader">
+            <div class="loader-body"></div>
+        </div>
+    </div><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <main class="main-content" id="top">
+            <header class="header1 bg-secondary shadow fixed-top" id="main-header" style="">
+                <div class="container main-header">
+                    <div class="row no-gutters">
+                        <div class="col-sm-12">
+                            <nav class="navbar navbar-expand-xl navbar-light menu py-0">
+                                <div class="logo_block"><a class="navbar-brand" href="/"><img class="img-fluid logo"
+                                            src="../assets/images/logo/logo.png" alt="Viva Online Store"><img
+                                            class="img-fluid  logo-sticky" src="../assets/images/logo/logo.png"
+                                            alt="Viva Online Store"><span class="brand-text">Indusviva Store</span></a>
+                                </div><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation"><span
+                                        class="foodsto-menu-box navbar-toggler-icon"><i class="fa fa-bars"
+                                            aria-hidden="true"></i></span></button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <div id="iq-menu-container" class="menu-main-menu-container">
+                                        <ul id="top-menu" class="navbar-nav">
+                                            <li><a aria-current="page" class="menu-item " href="index.html"><span class=""><i
+                                                            class="fas undefined"></i> Home </span></a></li>
+                                            <li><a aria-current="page" class="menu-item active" href="products.html"><span class=""><i
+                                                            class="fas "></i> Products</span></a></li>
+                                            <li><a aria-current="page" class="menu-item " href="contact.html"><span class=""><i
+                                                            class="fas "></i> Contact</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="container1">
+                <span class="big-circle"></span>
+                <img src="img/shape.png" class="square" alt="" />
+                <div class="form">
+                  <div class="contact-info">
+                    <h3 class="title">Let's get in touch</h3>
+                    
+          
+                    <div class="info">
+                      <div class="information">
+                        <i class="fa fa-map-marker" style="margin-right: 5px;" aria-hidden="true"></i>
+ &nbsp &nbsp
+          
+                        <p>Nandi Durga Rd, Jayamahal Extension, Benson Town, Bengaluru, Karnataka 560046</p>
+                      </div>
+                      <div class="information">
+                        <i class="fa fa-envelope" style="margin-right: 5px;" aria-hidden="true"></i>
+&nbsp &nbsp
+                        <p>sales@indusviva.com</p>
+                      </div>
+                      <div class="information">
+                        <i class="fa fa-phone"></i>&nbsp&nbsp
+                        <p>123-456-789</p>
+                      </div>
+                    </div>
+          
+                    <div class="social-media">
+                      <p>Connect with us :</p>
+                      <!-- <div class="social-icons"> -->
+                        <ul class="info-share social-icone d-inline list-inline">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/bushrasamad313/"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            </a></li>
+                            <li class="list-inline-item"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a></li>
+                            <li class="list-inline-item"><a a href=""><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a a href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      <!-- </div> -->
+                    </div>
+                  </div>
+          
+                  <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+          
+                    <form name="contact-form" method="post" autocomplete="off">
+                      <h3 class="title">Contact us</h3>
+                      <div class="input-container">
+                        <input type="text" name="name" class="input" required />
+                        <label for="">Username</label>
+                        <span>Username</span>
+                      </div>
+                      <div class="input-container">
+                        <input type="email" name="email" class="input" required/>
+                        <label for="">Email</label>
+                        <span>Email</span>
+                      </div>
+                      <div class="input-container">
+                        <input type="tel" name="phone" class="input" required/>
+                        <label for="">Phone</label>
+                        <span>Phone</span>
+                      </div>
+                      <div class="input-container textarea">
+                        <textarea name="message" class="input" required> </textarea>
+                        <label for="">Message</label>
+                        <span>Message</span>
+                      </div>
+                      <input type="submit" value="Send" class="btn" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <footer class="footer bg-soft-primary">
+                <div class="footer-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 ">
+                                <div class="footer-logo"><a><img class="img-fluid" src="../assets/images/logo/logo.png"
+                                            alt="Viva Online Store"></a></div>
+                                <div class="widget mb-4">
+                                    <div class="textwidget text-body">
+                                        <p>Beyond 21st century <br></p>
+                                    </div>
+                                </div>
+                                <ul class="info-share social-icone d-inline list-inline">
+                                    <li class="list-inline-item"><a href="https://www.facebook.com/bushrasamad313/"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                    </a></li>
+                                    <li class="list-inline-item"><a><i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a></li>
+                                    <li class="list-inline-item"><a><i class="fa fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0 ">
+                                <div class="widget">
+                                    <h5 class="footer-title">Link</h5>
+                                    <div class="menu-footer1-container">
+                                        <ul id="menu-footer1" class="menu list-inline p-0 m-0">
+                                            <li class="menu-item"><a><i class="fa fa-angle-right me-2" aria-hidden="true"></i></i>Checkout</a></li>
+                                            <li class="menu-item"><a><i class="fa fa-angle-right me-2" aria-hidden="true"></i>Wishlist</a></li>
+                                            <li class="menu-item"><a><i class="fa fa-angle-right me-2" aria-hidden="true"></i>Shopping
+                                                    Cart</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4">
+                                <div class="widget">
+                                    <h5 class="footer-title">Information</h5>
+                                    <div class="menu-footer2-container">
+                                        <ul id="menu-footer2" class="menu list-inline p-0 m-0">
+                                            <li class="menu-item"><a href="https://indusviva.com/about/"><i class="fa fa-angle-right me-2" aria-hidden="true"></i></i>About Us</a></li>
+                                            <li class="menu-item"><a href=""><i class="fa fa-angle-right me-2" aria-hidden="true"></i></i>Our Team</a></li>
+                                            <li class="menu-item"><a href="https://indusviva.com/contact/"><i class="fa fa-angle-right me-2" aria-hidden="true"></i>Contact Us</a></li>
+                                            <li class="menu-item"><a href="https://indusviva.com/blog/"><i class="fa fa-angle-right me-2" aria-hidden="true"></i>Blog</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4">
+                                <div class="widget">
+                                    <h5 class="footer-title ">Quick Contact</h5>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <ul class="iq-contact list-inline p-0 m-0">
+                                                <li><a><i class="fa fa-home"></i><span>Nandi Durga Rd, Jayamahal
+                                                            Extension, Benson Town, Bengaluru, Karnataka
+                                                            560046</span></a></li>
+                                                <li><a href="mailto:sales@indusviva.com"><i
+                                                            class="fa fa-envelope"></i><span>bushrasamad313@gmail.com</span></a>
+                                                </li>
+                                                <li><a href="tel:1800-103-4916"><i
+                                                            class="fa fa-phone"></i><span>1800-103-4916</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="d-none" id="back-to-top"><a class="top" title="Back to top"><svg width="30" viewBox="0 0 24 24"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 15.5L12 8.5L19 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg></a></div>
+            <div class="Toastify"></div>
+            <div class="Toastify"></div>
+        </main>
+    </div>
+    <div class="modal fade" tabindex="-1" id="dlgProcessing" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body d-flex justify-content-between align-items-center row"><span
+                        id="dlgProcessingMessage" class="col-10"></span>
+                    <div class="spinner-grow text-primary col-2 text-center" role="status"><span
+                            class="visually-hidden">Loading...</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/libs.min.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <script type="text/javascript">$(document).ready((function () { $("#loading").hide() }))</script>
+</body>
+
+</html>
